@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+    <Style>
+        * {
+            background-color: rgb(245, 182, 65);
+
+        }
+
+        #cont {
+            /* border: 10px solid rebeccapurple; */
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            /* grid-template-rows: repeat(3,1fr); */
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        #cont div {
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            background-color: aquamarine;
+            /* border-radius: 10px; */
+        }
+
+        @media all and (min-width:340px)and (max-width:767px) {
+
+            * {
+                background-color: rgb(38, 38, 165);
+            }
+
+            #cont {
+
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            #cont div {
+                background-color: white;
+            }
+
+        }
+
+        @media all and (min-width:768px)and (max-width:1023px) {
+
+            * {
+                background-color: rgb(44, 165, 38);
+            }
+
+            #cont {
+
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            #cont div {
+                background-color: rgb(239, 13, 13);
+            }
+
+        }
+
+        @media all and (min-width:150px)and (max-width:339px) {
+
+            * {
+                background-color: rgb(44, 165, 38);
+            }
+
+            #cont {
+
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            #cont div {
+                background-color: rgb(239, 13, 13);
+            }
+
+        }
+
+        @media all and (max-width:149px) {
+
+            * {
+                background-color: rgb(164, 17, 22);
+            }
+
+            #cont {
+                border: 1px solid black;
+                margin: 0px;
+                /* gap  */
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            #cont div {
+                background-color: rgb(13, 239, 36);
+            }
+
+        }
+    </Style>
+</head>
+
+<body>
+    <div id="cont">
+
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/isha_d678f60826.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/shiny_1dcc07d179.jpeg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/isha_d678f60826.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/shiny_1dcc07d179.jpeg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/isha_d678f60826.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/shiny_1dcc07d179.jpeg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/isha_d678f60826.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/shiny_1dcc07d179.jpeg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/isha_d678f60826.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/shiny_1dcc07d179.jpeg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg" alt="1st">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg" alt="image.png">
+        </div>
+
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/isha_d678f60826.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/shiny_1dcc07d179.jpeg" alt="">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
